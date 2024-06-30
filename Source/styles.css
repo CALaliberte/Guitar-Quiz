@@ -1,0 +1,53 @@
+body {
+    background-image: url(../Source/Amps.jpg);
+  }
+  
+  .quiz-container {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: rgb(78, 78, 78);
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .choices {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .choice {
+    font-size: 1em;
+    display: block;
+    margin: 5px 5px;
+    padding: .5em .75em;
+    background-color: #006db5;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .choice:hover {
+    background-color: #003a61;
+  }
+  
+  .reset {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    margin: 5px auto;
+    padding: .5em .75em;
+    background-color: #00b509;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset:hover {
+    background-color: #066e00;
+  }
